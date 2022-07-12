@@ -13,6 +13,7 @@ const input = fs.readFileSync(process.argv[2]);
 const minified = uglifyjs.minify(input.toString());
 let bytes = Buffer.from(minified.code);
 let decrypter;
+let b64;
 
 for (let i = 0; i < 3; ++i) {
   const iv = new Uint8Array(16);

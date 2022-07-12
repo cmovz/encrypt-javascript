@@ -19,4 +19,4 @@ It will generate a file called `compiled_script.js`, which contains the minified
 If your original script contains global variables, they must not be declared using `let`, please use `var` instead.
 
 ## Customizing
-By default it will encrypt the code 3 times, the original code will be encrypted, then the ciphertext will be encrypted and the resulting ciphertext will be encrypted again, you can change it on [this line](https://github.com/cmovz/encrypt-javascript/blob/main/encrypt-js.js#L17).
+By default it will encrypt the code 3 times, the original code will be encrypted, then the ciphertext will be encrypted and the resulting ciphertext will be encrypted again, you can change it on [this line](https://github.com/cmovz/encrypt-javascript/blob/main/encrypt-js.js#L18).
